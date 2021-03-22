@@ -78,16 +78,8 @@ function Colorize() {
           onChange={handleChange}
           placeholder="Enter a string..."
         />
-        <input
-          type="submit"
-          value="SUBMIT"
-          // style={{
-          //   backgroundColor: "black",
-            // color: "white",
-          //   border: "none",
-          // }}
-        className="btn-large waves-effect waves-light" />
-      </form>
+<button className="btn-large waves-effect waves-light" type="submit">SUBMIT</button>
+ </form>
       <div
         style={{
           backgroundColor: "rgba(250,250,150,.2)",
